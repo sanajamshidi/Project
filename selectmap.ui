@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SelectMap</class>
+ <widget class="QDialog" name="SelectMap">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>1024</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="background3Label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-50</y>
+     <width>2200</width>
+     <height>900</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+    background-image: url(&quot;:/image/mao.jpg&quot;);
+    background-repeat: no-repeat;
+    background-position: center;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="images.qrc">:/image/map.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>750</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton1">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>310</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>American Typewriter</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton{
+color: dark-brown;
+
+}</string>
+   </property>
+   <property name="text">
+    <string> Map 1</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton2">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>310</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>American Typewriter</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton{
+color: dark-brown;
+
+}</string>
+   </property>
+   <property name="text">
+    <string> Map 2</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton3">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>310</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>American Typewriter</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton{
+color: dark-brown;
+
+}</string>
+   </property>
+   <property name="text">
+    <string> Map 3</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton4">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>550</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>American Typewriter</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton{
+color: dark-brown;
+
+}
+</string>
+   </property>
+   <property name="text">
+    <string> Map 4</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton5">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>550</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>American Typewriter</family>
+     <pointsize>20</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton{
+color: dark-brown;
+
+}</string>
+   </property>
+   <property name="text">
+    <string> Map 5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="okButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>640</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>-1</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    padding: 12px 30px;
+
+    border-radius: 20px;
+
+    background: qlineargradient(
+        x1:0 y1:0, x2:0 y2:1,
+        stop:0 #a77749,
+        stop:0.4 #d9c89d,
+        stop:0.6 #f0e3cf,
+        stop:1 #a77749
+    );
+
+    border: 2px solid #a77749;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0 y1:0, x2:0 y2:1,
+        stop:0 #b98751,
+        stop:0.4 #e2d4a8,
+        stop:0.6 #f7eddb,
+        stop:1 #b98751
+    );
+}
+
+QPushButton:pressed {
+    background: qlineargradient(
+        x1:0 y1:0, x2:0 y2:1,
+        stop:0 #8c6138,
+        stop:0.4 #c8b486,
+        stop:0.6 #e3d3ba,
+        stop:1 #8c6138
+    );
+    border: 2px solid #8c6138;
+}</string>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
